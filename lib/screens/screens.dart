@@ -1,0 +1,1 @@
+export 'package:flutter_minitienda/screens/home_screen.dart';
