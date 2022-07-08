@@ -12,9 +12,9 @@ const imgLoading = 'assets/images/jar-loading.gif';
 // const icoNosotros = 'assets/icons/about.png';
 
 //Estilo de textos
-const StyleNombreProducto =
+const styleNombreProducto =
     TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold);
-const StylePrecioProducto = TextStyle(
+const stylePrecioProducto = TextStyle(
   color: Colors.white,
 );
 
@@ -26,7 +26,9 @@ class DefaultTheme {
         bodyText2: TextStyle(color: Colors.black),
       ),
       floatingActionButtonTheme:
-          const FloatingActionButtonThemeData(backgroundColor: colorPrincipal));
+          const FloatingActionButtonThemeData(backgroundColor: colorPrincipal),
+      // scaffoldBackgroundColor: Colors.black
+      );
 }
 
 BoxDecoration fondoScreen(String fondo) {

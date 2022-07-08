@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
                           padding: EdgeInsets.all(10.0),
                           child: Text(
                             'No Disponible              ',
-                            style: StylePrecioProducto,
+                            style: stylePrecioProducto,
                           ),
                         ),
                       ),
@@ -77,7 +77,7 @@ class _PrecioProducto extends StatelessWidget {
             padding: EdgeInsets.all(10.0),
             child: Text(
               'S/. 321,321.321',
-              style: StylePrecioProducto,
+              style: stylePrecioProducto,
             ),
           ),
         ),
@@ -106,7 +106,7 @@ class _NombreProducto extends StatelessWidget {
           children: [
             const Text(
               'Disco Duro',
-              style: StyleNombreProducto,
+              style: styleNombreProducto,
             )
           ],
         ),
